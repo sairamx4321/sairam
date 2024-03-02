@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Your Account</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #000000;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        input[type="text"],
+        input[type="password"],
+        input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        label {
+            font-weight: normal;
+        }
+        .checkbox-label {
+            font-size: 12px;
+        }
+        .signup-button {
+            background-color: #4caf50;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><center>Create your account</center></h1>
+        <form>
+            <input type="text" placeholder="Email address">
+            <input type="password" placeholder="Create password">
+            <input type="password" placeholder="Confirm password">
+            <input type="date" placeholder="Date of birth">
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <br>
+            <label class="checkbox-label">
+                <input type="checkbox"> I agree to HealthTab terms & conditions
+            </label>
+            <br>
+            <button class="signup-button">Sign up</button>
+        </form>
+    </div>
+</body>
+</html>
